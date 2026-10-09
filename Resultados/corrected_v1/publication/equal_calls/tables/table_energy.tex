@@ -1,0 +1,31 @@
+\begin{table}[!htbp]
+\centering
+\caption{Execution of the corrected selected models: median time, net energy and estimated carbon per simulation over ten measurement rounds. Canonical execution evaluates distinct monomials; all-gene NumPy execution uses corrected delays. Suffix K denotes searches under $\rho_K$.}
+\label{tab:corrected_energy}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{Canonical polynomial} & \multicolumn{3}{c}{All-gene NumPy} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Ex. & Method & Time ($\mu$s) & Energy ($\mu$J) & CO$_2$e ($\mu$g) & Time ($\mu$s) & Energy ($\mu$J) & CO$_2$e ($\mu$g) \\
+\midrule
+E1 & SO & 9.91 & 65.4 & 0.00528 & 313 & 2.11e+03 & 0.17 \\
+E1 & MO-lex & 7.78 & 51.6 & 0.00417 & 329 & 2.31e+03 & 0.186 \\
+E1 & Green & 7.79 & 52.2 & 0.00422 & 337 & 2.37e+03 & 0.192 \\
+E1 & MO-lex-K & 7.82 & 52.5 & 0.00424 & 334 & 2.32e+03 & 0.187 \\
+E1 & Green-K & 7.78 & 51.1 & 0.00413 & 330 & 2.35e+03 & 0.19 \\
+\midrule
+E2 & SO & 11.7 & 76.7 & 0.0062 & 338 & 2.34e+03 & 0.189 \\
+E2 & MO-lex & 9.49 & 65.7 & 0.0053 & 328 & 2.24e+03 & 0.181 \\
+E2 & Green & 7.66 & 51.2 & 0.00414 & 324 & 2.23e+03 & 0.18 \\
+E2 & MO-lex-K & 9.44 & 62.7 & 0.00507 & 326 & 2.23e+03 & 0.18 \\
+E2 & Green-K & 7.65 & 50.4 & 0.00407 & 321 & 2.25e+03 & 0.182 \\
+\midrule
+E3 & SO & 38.4 & 251 & 0.0203 & 848 & 5.8e+03 & 0.469 \\
+E3 & MO-lex & 35.3 & 232 & 0.0188 & 832 & 5.55e+03 & 0.448 \\
+E3 & Green & 33.6 & 228 & 0.0184 & 789 & 5.26e+03 & 0.425 \\
+E3 & MO-lex-K & 35.4 & 233 & 0.0188 & 830 & 5.6e+03 & 0.452 \\
+E3 & Green-K & 32.9 & 219 & 0.0177 & 783 & 5.38e+03 & 0.434 \\
+\bottomrule
+\end{tabular}
+\end{table}

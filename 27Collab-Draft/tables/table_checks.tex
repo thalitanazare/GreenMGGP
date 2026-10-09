@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\caption{Empirical verification of Theorems~2 and~3 over 30 seeds. Lexicographic reduction: seeds in which SO and MO-lex produce identical populations in all generations; diverging seeds in which the divergence is preceded by an error tie between individuals of different cost, and in which the populations involved contain at least two individuals with $J_E=\infty$; median generation of the first divergence. Non-deterioration: largest $|U_t^1|$ over all runs and generations, bound $L(G,h)$ and population size $\mu$; runs with at least one decrease of the population-front hypervolume.}
+\label{tab:checks}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccccccccc}
+\toprule
+ & \multicolumn{4}{c}{Lexicographic reduction} & \multicolumn{3}{c}{Capacity} & \multicolumn{3}{c}{Runs with HV decrease} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
+Ex. & identical & tie & $J_E{=}\infty$ & first div. & $\max|U_t^1|$ & $L(G,h)$ & $\mu$ & SO & MO-lex & Green \\
+\midrule
+E1 & 30/30 & 0/0 & 0/0 & -- & 8 & 50 & 100 & 30 & 30 & 0 \\
+E2 & 30/30 & 0/0 & 0/0 & -- & 9 & 50 & 100 & 30 & 30 & 0 \\
+E3 & 30/30 & 0/0 & 0/0 & -- & 10 & 260 & 100 & 30 & 30 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-09 13:54:14",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "chip": "Apple M2",
+  "model": "Mac14,2",
+  "python": "3.13.9",
+  "numpy": "2.5.3",
+  "codecarbon": "3.3.1",
+  "power_source": "Now drawing from 'AC Power'",
+  "country": "IRL",
+  "carbon_intensity_g_per_kWh": 290.805,
+  "simulators": [
+    "canonical",
+    "numpy_allgenes"
+  ],
+  "study_protocol_sha256": "a627ccd9423a30ad6f07da33915a167577b218e3d93ce08e7a1f86f6866f81ed"
+}

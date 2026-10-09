@@ -1,0 +1,4 @@
+example,lex_identical,lex_first_div_median,lex_div_explained_by_tie,lex_diverged,L_bound,mu,green_max_U1,hv_drop_runs_SO,hv_drop_runs_MO-lex,hv_drop_runs_Green,div_with_inf
+E1,30,,0,0,50,100,8,30,30,0,0
+E2,30,,0,0,50,100,8,30,30,0,0
+E3,30,,0,0,260,100,11,30,30,0,0

@@ -1,0 +1,11 @@
+{
+  "machine": "arm64",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "compiler_flags": "clang -O2 -fno-fast-math -ffp-contract=off",
+  "median_ns": {
+    "add": 0.8851,
+    "multiply": 1.179325
+  },
+  "mul_add_ratio": 1.3324200655293186,
+  "scope": "Independent scalar dependent chains; loop overhead included. Does not measure CPython or energy and does not tune rho after the search."
+}

@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Effect of the multiplication weight $\rho$ over 30 runs (medians). HV: identification hypervolume; $\Delta C_\tau$: reduction of the median selected cost of Green MGGP relative to SO, with the cost of the same scenario; $a{+}b$ and $C_{\rho_K}$: operation count and Karatsuba-weighted cost of the selected Green model; same: fraction of seeds in which Green MGGP selects the same structure under both weights.}
+\label{tab:rho}
+\setlength{\tabcolsep}{3.5pt}
+\small
+\begin{tabular}{llccccccc}
+\toprule
+ & & \multicolumn{3}{c}{HV$_\mathrm{id}$} & & \multicolumn{2}{c}{Green $\mathcal M_\tau$} & \\
+\cmidrule(lr){3-5}\cmidrule(lr){7-8}
+Ex. & weight & SO & MO-lex & Green & $\Delta C_\tau$ & $a{+}b$ & $C_{\rho_K}$ & same \\
+\midrule
+E1 & $\rho=1$ & 0.640 & 0.829 & 0.896 & 22\% & 7 & 48.6 & 100\% \\
+ & $\rho_K$ & 0.738 & 0.884 & 0.929 & 20\% & 7 & 48.6 &  \\
+\midrule
+E2 & $\rho=1$ & 0.508 & 0.702 & 0.879 & 42\% & 7 & 48.6 & 93\% \\
+ & $\rho_K$ & 0.622 & 0.773 & 0.911 & 43\% & 7 & 48.6 &  \\
+\midrule
+E3 & $\rho=1$ & 0.736 & 0.798 & 0.954 & 14\% & 16 & 109.5 & 3\% \\
+ & $\rho_K$ & 0.819 & 0.874 & 0.962 & 14\% & 16 & 109.5 &  \\
+\bottomrule
+\end{tabular}
+\end{table}

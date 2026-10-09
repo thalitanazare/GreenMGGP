@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "blocks": 311,
+  "work_blocks": 300,
+  "idle_blocks": 11,
+  "minimum_power_samples": 63,
+  "energy_positive": true,
+  "protocol_hash_matches": true,
+  "carbon_conversion_matches": true,
+  "idle_min_W": 0.0560566886363636,
+  "idle_max_W": 0.7451888555555556,
+  "max_idle_sensitivity_relative": 0.053473045573595335
+}

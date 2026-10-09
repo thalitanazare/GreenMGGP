@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mggpy"
+version = "0.1.0"
+description = "Multi-Gene Genetic Programming for system identification and regression"
+
+license = {text = "MIT"}
+authors = [
+    {name = "Rafael Avila", email = "rafael.santos0t5@gmail.com"},
+    {name = "Henrique Castro", email = "henriquec.castro@outlook.com"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy>=1.26",
+    "deap>=1.4",
+    "tqdm>=4.67",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=mggp --cov-report=term-missing"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]

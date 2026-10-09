@@ -1,0 +1,10 @@
+\section*{Notas}
+\begin{itemize}
+\item \textbf{O que mudou no MGGP:} o Green usa seleção de Pareto (NSGA-II), considerando erro e custo juntos. O modo MO-lex prioriza o erro e usa o custo para desempatar.
+\item \textbf{Correção comum:} no estudo novo, um avaliador externo corrige os atrasos de entrada e saída para todos os métodos. Mantém mínimos quadrados e os operadores; simulações que divergem são falhas, não zeros. O pacote original não foi editado.
+\item \textbf{Complexidade:} contamos as operações do polinômio sem termos repetidos: $C_\rho=a+\rho b$, com $a$ adições e $b$ multiplicações, incluindo os coeficientes. Isto é custo aritmético, não energia medida.
+\item \textbf{Dois pesos:} $\rho=1$ conta todas as operações igualmente; $\rho_K=729/64$ vem do modelo teórico em bits de Karatsuba. Os dois foram fixados antes das novas buscas e continuam na análise.
+\item \textbf{Medições:} tempos de execução permitem estimar $t_\times/t_+$; powermetrics mede potência para calcular energia; CodeCarbon fornece apenas a intensidade de carbono para calcular CO$_2$e. Energia e CodeCarbon não definem $\rho$.
+\item \textbf{Comparações novas:} além do protocolo original, todos os métodos receberam 4.510 avaliações por corrida. Também comparamos objetivos de número de termos e de nós, sem mudar a regra de escolha do modelo.
+\item \textbf{Estado deste documento:} as secções de resultados e energia abaixo ainda são históricas. O estudo corrigido tem 1.440 corridas e relatórios separados em \path{Resultados/corrected_v1/}; a energia dos novos modelos ainda não foi medida. Os números antigos não podem ser atribuídos aos modelos corrigidos.
+\end{itemize}

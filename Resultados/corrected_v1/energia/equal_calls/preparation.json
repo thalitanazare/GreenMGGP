@@ -1,0 +1,8 @@
+{
+  "n_records": 450,
+  "n_ok": 446,
+  "n_missing": 4,
+  "max_sim_diff": 7.418066161335446e-11,
+  "energy_measured": true,
+  "secondary_simulator": "NumPy evaluation of every gene using corrected lags; not the unmodified package predictor"
+}

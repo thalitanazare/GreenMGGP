@@ -1,0 +1,134 @@
+"""Reuse publication exporters with corrected caches in an isolated publication folder.
+
+No search cell is executed. The historical manuscript and its PDFs stay intact.
+"""
+import contextlib
+import io
+import json
+import os
+from pathlib import Path
+import shutil
+import sys
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+os.environ.setdefault('MPLCONFIGDIR','/private/tmp/green-mpl')
+os.environ['MPLBACKEND']='Agg'
+from corrected_energy import rebuild
+from corrected_experiments import predict
+import numpy as np
+import matplotlib.pyplot as plt
+
+SOURCE=json.loads((ROOT/'MGGP_multiobjetivo.ipynb').read_text())
+def cell(i):return ''.join(SOURCE['cells'][i]['source'])
+
+def main():
+    os.chdir(ROOT)
+    for arm in ['native','equal_calls']:
+        draft=ROOT/'Resultados/corrected_v1/publication'/arm
+        (draft/'figures').mkdir(parents=True,exist_ok=True);(draft/'tables').mkdir(exist_ok=True)
+        for scenario in ['karatsuba','ops']:
+            os.environ['GMGGP_COST']=scenario
+            ns={'__name__':'corrected_export','display':lambda *a,**k:None}
+            exec(cell(1),ns)
+            analysis=draft/'analysis'/scenario;analysis.mkdir(parents=True,exist_ok=True)
+            ns.update(RES=str(analysis),DRAFT=str(draft),FIG=str(draft/'figures'),TAB=str(draft/'tables'))
+            ns['plt'].show=lambda:None
+            exec(cell(5),ns)
+            exec(cell(7).split('RUNS_FILE =')[0],ns)
+            runs=json.loads((ROOT/'Resultados/corrected_v1'/arm/scenario/'runs.json').read_text());runs=[r for r in runs if r['config'] in ['SO','MO-lex','Green']]
+            (analysis/'runs.json').write_text(json.dumps(runs))
+            ns['runs']=runs
+            # Keep infinities as failures rather than replacing them by a finite sentinel.
+            for i in [9,11,12,13,15,16,18,19,22]:
+                text=cell(i).replace('.replace(np.inf, 1e9)','')
+                if i==15:
+                    text=text.replace('initial mutation 0.2; baseline elite retention 10', 'initial mutation 0.2; baseline elite retention 10')
+                exec(text,ns)
+                if i==9:
+                    ns['tests']=ns['pd'].read_csv(ROOT/'Resultados/corrected_v1'/arm/scenario/'stats_tests.csv')
+                    ns['tests'].to_csv(analysis/'stats_tests.csv',index=False)
+            if scenario=='ops':
+                text=cell(24).replace('os.path.join(ROOT, "Resultados", "karatsuba")',repr(str(draft/'analysis/karatsuba')))
+                exec(text,ns)
+            make_freerun(ns,draft)
+            plt.close('all')
+        import figures_results
+        figures_results.RES=str(draft/'analysis');figures_results.FIG=str(draft/'figures')
+        figures_results.main()
+        shutil.copy(ROOT/'27Collab-Draft/figures/fig_pipeline.tex',draft/'figures/fig_pipeline.tex')
+        shutil.copy(ROOT/'27Collab-Draft/refs.bib',draft/'refs.bib')
+        notes=(ROOT/'27Collab-Draft/sec_notes.tex').read_text()
+        notes=notes[:notes.index(r'\item \textbf{Estado deste documento:}')]+r'\item \textbf{Estado deste relatório:} identificação corrigida concluída; energia dos novos modelos ainda pendente. As medições antigas não entram neste relatório.'+'\n'+r'\end{itemize}'+'\n'
+        (draft/'sec_notes.tex').write_text(notes)
+        # Standalone corrected results export; does not include historical energy claims.
+        preamble=(ROOT/'27Collab-Draft/main.tex').read_text().split(r'\input{results_macros.tex}')[0]
+        text=preamble+r'''\input{results_macros.tex}
+\input{results_macros_K.tex}
+\begin{document}
+\title{Corrected Green MGGP Experiments: '''+arm.replace('_',' ')+r'''}
+\author{}\date{}\maketitle
+\input{sec_notes.tex}
+\section{Corrected evaluator and experimental protocol}
+\noindent This export uses corrected delayed-factor evaluation for every method. Least squares retains one column per gene, including duplicates; simulation uses the actual maximum factor delay for initialisation and complete windows of that delay plus $K=20$. Divergence is a failure. The vendored package is unchanged; a shared external evaluator implements these corrections.
+
+'''+(r'''The comparison uses exactly 4,510 fitness calls per run: 100 initial evaluations and 49 steps with 90 evaluated offspring, including unchanged offspring and failures. Parent and survivor selection differ between methods; other representation and variation settings are shared. The mutation schedule uses the package's nine-generation checkpoints.''' if arm=='equal_calls' else r'''This diagnostic retains the native offspring counts (90 for the baselines, 100 for Green) and reuse of valid fitness. Actual evaluation counts are in the saved CSVs; this arm is not an equal-budget comparison.''')+r'''
+
+NSGA-II supplies Pareto ranking and crowding~\cite{DPAM2002}; the underlying multigene package is attributed to its software source~\cite{mggpy}. Thirty seeds were run for each example and configuration under both weights. E1 is generated by
+\begin{equation}y(k)=0.65y(k-1)+0.35u(k)+0.10u(k)y(k-1),\label{eq:tutorial}\end{equation}
+with white Gaussian measurement noise added in E2; E3 uses the Bouc--Wen simulator. The reference point remains $(1,1)$ and the declared cost reference is unchanged. Reference sensitivity is exported separately~\cite{Ishibuchi2018}. Holm correction includes all tested metrics, examples and baselines within each arm and weight (30 tests for the native arm, 60 for the equal-call arm). Run times under concurrent workloads, if present, are diagnostic rather than execution benchmarks.
+\input{tables/table_setup.tex}
+\section{Arithmetic complexity and declared weights}
+For each duplicate-free polynomial, $C_\rho=a+\rho b$: $a$ counts additions and $b$ counts multiplications, including coefficients. This theoretical operation model is evaluated directly from the structure. Both fixed scenarios are analysed: $\rho=1$ counts operations equally; $\rho_K=729/64$ is the Green-Box bit-level weight associated with Karatsuba~\cite{NMN2023,KO1963}. Neither comes from measured power or CodeCarbon. The structural invariance and cost properties remain analytical results; population hashes and conditional hypervolume checks test the corresponding search statements empirically.
+
+Timing calibration fits $t=t_0+t_+a+t_\times b$ and estimates $t_\times/t_+$ for the chosen execution implementation. Earlier Python timing measurements motivate an order-one primary weight; both weights were fixed before these corrected searches. The separate C microbenchmark is a diagnostic, not a calibration of CPython and not a reason to retune the objectives retrospectively. Powermetrics supplies power for energy integration; CodeCarbon supplies only grid carbon intensity. Corrected energy measurements remain pending.
+
+\section{Results under both weights}
+\input{tables/table_results.tex}
+\input{tables/table_models.tex}
+\input{tables/table_checks.tex}
+\input{tables/table_rho.tex}
+'''
+        for name in ['hv','attainment','convergence','regressors','tau','ab','freerun']:
+            text+=r'\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/fig_'+name+r'.pdf}\caption{Corrected results: '+name+r'.}\end{figure}'+'\n'
+        text+=r'''\clearpage
+\noindent Energy and carbon measurements for these selected models are pending. Historical energy values are not included. The node and term ablations and their statistics are in the parent study report and CSVs.
+\bibliographystyle{unsrt}\bibliography{refs}
+\end{document}
+'''
+        if arm=='equal_calls':
+            text=text.replace(r'\bibliographystyle{unsrt}','\n\\clearpage\n\\section*{Ablation and interpretation}\n\\input{../../table_corrected_ablation.tex}\n\\begin{figure}[p]\\centering\n\\includegraphics[width=\\textwidth]{../../fig_corrected_ablation.pdf}\n\\caption{Equal-evaluation comparison with term and node objectives: validation hypervolume and selected arithmetic cost over 30 runs.}\n\\end{figure}\nThe term-count ablation has no significant difference in validation hypervolume from Green on any tested example after Holm correction. These results do not establish a consistent advantage of the arithmetic objective over term count. On E1, validation errors are at machine precision, so statistical distinctions below $10^{-14}$ have no practical accuracy interpretation. On E3, the identification-only $\\tau$-rule selects models with poor free-run generalisation even though the Green sets contain models with substantially better validation. The rule remains unchanged; the best available validation is a diagnostic and is not used for selection.\n'+r'\bibliographystyle{unsrt}')
+        energy=ROOT/'Resultados/corrected_v1/energia'/arm
+        if arm=='equal_calls' and (energy/'session_audit.json').exists():
+            for name in ['energy_macros.tex']:
+                shutil.copy(energy/name,draft/name)
+            shutil.copy(ROOT/'27Collab-Draft/sec_energy.tex',draft/'sec_energy.tex')
+            shutil.copy(energy/'table_energy.tex',draft/'tables/table_energy.tex')
+            for name in ['fig_energy.pdf','fig_exec_time.pdf']:
+                shutil.copy(energy/name,draft/'figures'/name)
+            text=text.replace(r'\input{results_macros_K.tex}',r'\input{results_macros_K.tex}'+'\n'+r'\input{energy_macros.tex}',1)
+            text=text.replace('Corrected energy measurements remain pending.','Corrected energy measurements are reported in the final section.')
+            text=text.replace('Energy and carbon measurements for these selected models are pending. Historical energy values are not included. The node and term ablations and their statistics are in the parent study report and CSVs.','The corrected energy session is complete; its results are reported below.')
+            text=text.replace(r'\bibliographystyle{unsrt}',r'\input{sec_energy.tex}'+'\n'+r'\bibliographystyle{unsrt}',1)
+            notes=(draft/'sec_notes.tex').read_text().replace('energia dos novos modelos ainda pendente.','energia dos novos modelos medida em uma sessão.')
+            (draft/'sec_notes.tex').write_text(notes)
+        (draft/'main.tex').write_text(text)
+        for table_path in (draft/'tables').glob('*.tex'):
+            table_path.write_text(table_path.read_text().replace(r'\begin{table}[t]',r'\begin{table}[!htbp]').replace(r'\begin{table*}[t]',r'\begin{table*}[!htbp]'))
+        checks=draft/'tables/table_checks.tex'
+        checks.write_text(checks.read_text().replace(r'\ref{thm:lex}','2').replace(r'\ref{thm:elitism}','3').replace(r'\eqref{eq:levels}',r'$L(G,h)$'))
+        print('Exported',draft,flush=True)
+
+def make_freerun(ns,draft):
+    fig,axes=plt.subplots(1,2,figsize=(7.16,2.0))
+    for ax,key in zip(axes,['E2','E3']):
+        ex=ns['EXAMPLES'][key];d=ex['data']
+        for cfg,style in [('SO','-'),('Green','--')]:
+            r=ns['median_run'](key,cfg);s=ns['select_tau'](r['delivered']);_,fitted=rebuild(s['genes'],ex)
+            yp,yd=predict(fitted,d['y_val'],d['u_val']);n=fitted['lag']
+            assert abs(ns['nrmse'](yd,yp)-s['val'])<1e-10
+            x=np.ravel(d['u_val'])[n:] if key=='E3' else np.arange(n,len(d['y_val']))
+            if cfg=='SO':ax.plot(x,yd,color='0.7',label='measured')
+            ax.plot(x,yp,style,color=ns['COL'][cfg],label=cfg)
+        ax.set_title(key);ax.set_xlabel('$u$' if key=='E3' else 'validation sample');ax.set_ylabel('$y$');ax.legend(frameon=False)
+    fig.tight_layout();ns['save_fig'](fig,'fig_freerun');plt.close(fig)
+if __name__=='__main__':
+    with (ROOT/'Resultados/corrected_v1/export.log').open('w') as log,contextlib.redirect_stdout(log):main()

@@ -1,0 +1,7652 @@
+[
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 0,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 1,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 2,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 3,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.3132865428115775e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 4,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.26099261257318e-16,
+    "genes": [
+      "y1",
+      "y1",
+      "u1",
+      "mul(u1, y1)",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 5,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 6,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 7,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 8,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 9,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 10,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 11,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 12,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 13,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 14,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 15,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 16,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 17,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.3132865428115775e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 18,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 6.156117865385776e-16,
+    "genes": [
+      "y1",
+      "y1",
+      "mul(y1, u1)",
+      "u1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 19,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 20,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 21,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 22,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 23,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 7.495765931930908e-16,
+    "genes": [
+      "y1",
+      "mul(y1, u1)",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 24,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 25,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 26,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 27,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 28,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 5.369700045505021e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex-K",
+    "seed": 29,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 0,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 7.142928451732104e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 1,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.0443950575286657e-15,
+    "genes": [
+      "u1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 2,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.133304983038018e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 3,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 7.142928451732104e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(u1, y1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 4,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.2648814273871748e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 5,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.1233430408575456e-15,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "y1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 6,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 9.267039282010344e-16,
+    "genes": [
+      "y1",
+      "y1",
+      "mul(u1, y1)",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 7,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.947580698642516e-15,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 8,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 5.29658930435707e-16,
+    "genes": [
+      "mul(y1, u1)",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 9,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 9.03448256430443e-16,
+    "genes": [
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 10,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.895154008727764e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 11,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 8.878886681264161e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 12,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.2031003816395871e-15,
+    "genes": [
+      "y1",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 13,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 4.084126682246382e-16,
+    "genes": [
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 14,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.252858957327326e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 15,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.5944835719487724e-15,
+    "genes": [
+      "mul(u1, y1)",
+      "y1",
+      "u1",
+      "y1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 16,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.947580698642516e-15,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 17,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 2.1677456228804145e-15,
+    "genes": [
+      "y1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 18,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.2489343803753984e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 19,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.4709222633268395e-15,
+    "genes": [
+      "mul(u1, y1)",
+      "y1",
+      "y1",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 20,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.4896201714327896e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 21,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 9.03448256430443e-16,
+    "genes": [
+      "u1",
+      "mul(u1, y1)",
+      "y1",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 22,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 7.142928451732104e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 23,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 9.03448256430443e-16,
+    "genes": [
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 24,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 3.0443950575286657e-15,
+    "genes": [
+      "u1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 25,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.035053617371294e-15,
+    "genes": [
+      "mul(y1, u1)",
+      "u1",
+      "u1",
+      "y1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 26,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.9964913575063468e-15,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "u1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 27,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.2862667904077988e-15,
+    "genes": [
+      "y1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 28,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 8.878886681264161e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(u1, y1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green-K",
+    "seed": 29,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 1.044925924616553e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 0,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028621296410020255,
+    "genes": [
+      "q1(u1)",
+      "mul(u1, q2(u1))",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 1,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028055878467765197,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 2,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028809424244161618,
+    "genes": [
+      "mul(u1, q1(u1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "mul(q1(y1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 3,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.0281884447599459,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "mul(q2(y1), q1(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 4,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028621296410020196,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(u1, q2(u1))",
+      "mul(q1(y1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 5,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.029159056587540748,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q2(y1), q1(y1))",
+      "mul(q1(u1), u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 6,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028055878467765152,
+    "genes": [
+      "q1(u1)",
+      "q1(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 7,
+    "scenario": "karatsuba",
+    "C": 73.34375,
+    "val": 0.0280374199234565,
+    "genes": [
+      "y1",
+      "q1(q2(y1))",
+      "mul(q1(y1), q1(u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 8,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028055878467765197,
+    "genes": [
+      "mul(q1(y1), q1(u1))",
+      "q2(q1(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 9,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889281,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 10,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028188444759945874,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "mul(q1(y1), q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 11,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028621296410020154,
+    "genes": [
+      "mul(u1, q2(u1))",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 12,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028750982584347478,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q2(u1), q1(y1))",
+      "q2(q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 13,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.02818844475994596,
+    "genes": [
+      "mul(q1(u1), q1(y1))",
+      "mul(q2(y1), q1(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 14,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028055878467765253,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 15,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.02899960310140295,
+    "genes": [
+      "mul(q2(y1), u1)",
+      "q1(q1(y1))",
+      "q2(q2(y1))",
+      "q2(y1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 16,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.02818268848553528,
+    "genes": [
+      "mul(y1, q2(y1))",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 17,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889271,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 18,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028946790859196353,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(y1), u1)",
+      "q1(mul(y1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 19,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.02818268848553524,
+    "genes": [
+      "mul(q1(y1), q1(u1))",
+      "q2(q2(y1))",
+      "mul(q2(y1), y1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 20,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892795,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 21,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028055878467765184,
+    "genes": [
+      "q1(u1)",
+      "q2(q1(y1))",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 22,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889277,
+    "genes": [
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 23,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892795,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 24,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.028336509178523917,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "u1",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 25,
+    "scenario": "karatsuba",
+    "C": 73.34375,
+    "val": 0.028061057151065962,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q1(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(y1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 26,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.02815717361602156,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "mul(y1, u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 27,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028182688485535283,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "mul(y1, q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 28,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.02862129641002024,
+    "genes": [
+      "q2(q2(y1))",
+      "mul(q2(u1), u1)",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex-K",
+    "seed": 29,
+    "scenario": "karatsuba",
+    "C": 72.34375,
+    "val": 0.028074039740755747,
+    "genes": [
+      "q1(u1)",
+      "mul(q1(y1), u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 0,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892716,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 1,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889273,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 2,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 3,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892802,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 4,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889278,
+    "genes": [
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(y1), q1(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 5,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.0283362316288928,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 6,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889271,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 7,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892813,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 8,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 9,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.02805587846776524,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q2(q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 10,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889277,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 11,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 12,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889279,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 13,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892854,
+    "genes": [
+      "q1(u1)",
+      "mul(q1(y1), q1(u1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 14,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892802,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 15,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892743,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 16,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889278,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 17,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 18,
+    "scenario": "karatsuba",
+    "C": 60.953125,
+    "val": 0.02776895984100228,
+    "genes": [
+      "q2(q1(y1))",
+      "q1(q2(u1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q1(q2(u1))"
+    ],
+    "lag": 4
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 19,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892785,
+    "genes": [
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 20,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892813,
+    "genes": [
+      "mul(q1(y1), q1(u1))",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 21,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892823,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 22,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889273,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(y1), q1(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 23,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892813,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 24,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892775,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 25,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889278,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 26,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.02833623162889271,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 27,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892747,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 28,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892705,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green-K",
+    "seed": 29,
+    "scenario": "karatsuba",
+    "C": 48.5625,
+    "val": 0.028336231628892802,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 0,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4114130381953272,
+    "genes": [
+      "q3(q1(q3(u1)))",
+      "y1",
+      "q1(y1)",
+      "y1",
+      "q2(q3(q1(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q3(q2(u1)))",
+      "mul(mul(q3(u1), q2(y1)), q2(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 1,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3685669607668864,
+    "genes": [
+      "q3(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "q1(q3(q3(y1)))",
+      "q3(mul(mul(y1, y1), q1(u1)))",
+      "q2(q1(q3(y1)))",
+      "q1(q1(q3(u1)))",
+      "q1(q3(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 2,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.2543238892233024,
+    "genes": [
+      "q1(q3(q2(u1)))",
+      "mul(q2(q3(u1)), mul(q3(y1), q3(y1)))",
+      "q1(q2(q2(u1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q1(q3(q2(y1)))",
+      "y1",
+      "q3(q2(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 3,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4114130377786807,
+    "genes": [
+      "q1(y1)",
+      "q2(q3(q3(u1)))",
+      "q3(q3(q1(u1)))",
+      "q1(y1)",
+      "y1",
+      "mul(q1(q2(u1)), mul(q2(y1), q3(u1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 4,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4073547064290304,
+    "genes": [
+      "q1(y1)",
+      "q1(q3(q3(u1)))",
+      "q3(q2(q2(y1)))",
+      "q2(q1(q3(u1)))",
+      "q1(mul(q2(u1), mul(y1, y1)))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 5,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.339835537085711,
+    "genes": [
+      "q1(q3(q3(u1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q1(q3(u1)))",
+      "q3(q2(q3(u1)))",
+      "mul(q2(q1(u1)), mul(q2(y1), q1(y1)))",
+      "y1",
+      "q1(y1)",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 6,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4670512654174257,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q2(q2(q2(u1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q3(q1(y1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q1(q3(q3(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 7,
+    "scenario": "karatsuba",
+    "C": 144.6875,
+    "val": 1.1706935881100962,
+    "genes": [
+      "q2(q2(q3(u1)))",
+      "y1",
+      "mul(q2(q3(y1)), mul(u1, y1))",
+      "q3(y1)",
+      "q3(q2(q3(u1)))",
+      "mul(mul(q1(y1), q3(u1)), q3(u1))",
+      "q3(q3(q2(y1)))",
+      "q2(q2(q2(u1)))"
+    ],
+    "lag": 9
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 8,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4670512654674763,
+    "genes": [
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q2(u1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q3(q3(u1))",
+      "q2(q1(q3(y1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 9,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.299601640550438,
+    "genes": [
+      "y1",
+      "q3(q1(q1(u1)))",
+      "q1(y1)",
+      "q3(q1(q1(u1)))",
+      "q3(mul(mul(u1, u1), q2(u1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q2(q2(u1)))",
+      "q3(q2(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 10,
+    "scenario": "karatsuba",
+    "C": 166.46875,
+    "val": 0.5000326217763083,
+    "genes": [
+      "mul(q2(u1), mul(u1, u1))",
+      "mul(q3(q2(y1)), q2(y1))",
+      "q2(q3(u1))",
+      "q2(q3(y1))",
+      "q3(u1)",
+      "mul(mul(q2(u1), q1(u1)), q2(q2(u1)))",
+      "mul(q1(u1), q2(mul(u1, u1)))",
+      "q2(q3(u1))"
+    ],
+    "lag": 6
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 11,
+    "scenario": "karatsuba",
+    "C": 155.078125,
+    "val": 1.5731477329613914,
+    "genes": [
+      "q2(u1)",
+      "mul(mul(y1, u1), q3(u1))",
+      "mul(u1, mul(q3(u1), y1))",
+      "mul(q3(q2(u1)), q2(mul(u1, y1)))",
+      "mul(u1, mul(u1, u1))",
+      "q2(q3(q2(u1)))",
+      "q1(q3(y1))",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 12,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4309455630478096,
+    "genes": [
+      "q2(q2(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q2(q1(q3(u1)))",
+      "q2(q3(q1(u1)))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "mul(q2(mul(u1, y1)), q2(q2(u1)))",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 13,
+    "scenario": "karatsuba",
+    "C": 133.296875,
+    "val": 1.4978106212189835,
+    "genes": [
+      "mul(mul(q3(y1), q3(u1)), q3(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q3(q1(q3(u1)))",
+      "q2(q3(q1(u1)))",
+      "q1(q3(mul(y1, y1)))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 14,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.424536414312042,
+    "genes": [
+      "y1",
+      "q1(q3(q2(y1)))",
+      "q1(u1)",
+      "q2(u1)",
+      "y1",
+      "q3(q3(q1(y1)))",
+      "u1",
+      "q2(q1(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 15,
+    "scenario": "karatsuba",
+    "C": 144.6875,
+    "val": 1.0777152814237663,
+    "genes": [
+      "q3(q3(q3(u1)))",
+      "q1(q2(u1))",
+      "q3(mul(u1, mul(y1, u1)))",
+      "y1",
+      "mul(mul(q1(u1), q1(u1)), q3(q3(y1)))",
+      "q3(q2(q3(u1)))",
+      "q3(q3(q3(y1)))",
+      "q3(q1(y1))"
+    ],
+    "lag": 10
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 16,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3737644606081234,
+    "genes": [
+      "y1",
+      "q3(q3(u1))",
+      "q1(q3(q3(y1)))",
+      "q1(q2(q3(y1)))",
+      "y1",
+      "mul(mul(q3(u1), q3(y1)), q2(q3(y1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 17,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4309455630836678,
+    "genes": [
+      "q2(q2(q3(y1)))",
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q1(y1)",
+      "q2(mul(q2(u1), mul(u1, y1)))",
+      "y1",
+      "q3(q1(q3(u1)))",
+      "q3(q3(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 18,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.474250042250113,
+    "genes": [
+      "q3(q3(q2(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q3(q1(u1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(y1))",
+      "q3(q3(u1))",
+      "y1",
+      "mul(q3(q1(y1)), mul(q3(u1), q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 19,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4670512654687449,
+    "genes": [
+      "q3(mul(mul(y1, u1), q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q3(u1)))",
+      "q3(q3(u1))",
+      "q3(q3(y1))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q3(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 20,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3814531183213783,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "q2(q2(q3(y1)))",
+      "q2(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "q3(mul(q2(u1), mul(u1, u1)))",
+      "q3(q1(q3(u1)))",
+      "q1(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 21,
+    "scenario": "karatsuba",
+    "C": 144.6875,
+    "val": 1.1192204615298393,
+    "genes": [
+      "mul(mul(u1, u1), q3(q3(y1)))",
+      "q3(q3(q3(u1)))",
+      "q1(mul(mul(u1, y1), q3(u1)))",
+      "q2(q3(q2(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q2(q3(u1)))",
+      "y1",
+      "q3(y1)"
+    ],
+    "lag": 9
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 22,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.4245364143079842,
+    "genes": [
+      "q3(q3(y1))",
+      "u1",
+      "q2(q3(q2(y1)))",
+      "q1(u1)",
+      "q1(q2(q3(y1)))",
+      "q3(u1)",
+      "y1",
+      "q2(u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 23,
+    "scenario": "karatsuba",
+    "C": 142.6875,
+    "val": 0.06446755592298278,
+    "genes": [
+      "mul(q3(q1(u1)), mul(q2(y1), q1(u1)))",
+      "mul(mul(u1, u1), y1)",
+      "q2(q1(q1(u1)))",
+      "q3(q2(u1))",
+      "mul(mul(q1(u1), q1(u1)), y1)",
+      "y1",
+      "y1",
+      "mul(u1, mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 24,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4670512654698473,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "q3(mul(q3(u1), mul(y1, u1)))",
+      "y1",
+      "q3(q3(u1))",
+      "q2(q2(q2(y1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q3(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 25,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3398355368559265,
+    "genes": [
+      "q2(q3(q2(u1)))",
+      "y1",
+      "q3(q3(q2(u1)))",
+      "q1(q3(q3(y1)))",
+      "mul(q3(u1), mul(q2(y1), q1(y1)))",
+      "q1(y1)",
+      "q3(q1(q3(y1)))",
+      "q2(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 26,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4181047658819748,
+    "genes": [
+      "y1",
+      "mul(q3(q1(u1)), mul(q1(y1), q3(u1)))",
+      "q1(q3(q3(y1)))",
+      "q1(y1)",
+      "q2(q2(q2(u1)))",
+      "q1(y1)",
+      "q3(q2(q2(u1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 27,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4296840167920426,
+    "genes": [
+      "q3(q3(y1))",
+      "q2(q3(q1(u1)))",
+      "y1",
+      "y1",
+      "q3(q3(q1(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(mul(q1(u1), mul(y1, y1)))",
+      "q3(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 28,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.5473864518772669,
+    "genes": [
+      "q3(u1)",
+      "q1(q3(u1))",
+      "q3(q3(y1))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(u1))",
+      "q2(q2(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex-K",
+    "seed": 29,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": Infinity,
+    "genes": [
+      "q2(q3(q2(y1)))",
+      "q3(q1(q3(u1)))",
+      "mul(q1(q2(y1)), mul(q3(y1), q3(y1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(q1(y1)))",
+      "q3(q3(u1))",
+      "y1",
+      "q3(q3(y1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 0,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4483227715680842,
+    "genes": [
+      "q2(q1(u1))",
+      "mul(q2(q3(y1)), q2(mul(u1, u1)))",
+      "q1(y1)",
+      "q2(q3(q3(u1)))",
+      "q2(q2(q2(u1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q1(u1))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 1,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 2.5143968677737876,
+    "genes": [
+      "q3(y1)",
+      "q3(q3(q2(u1)))",
+      "q1(q3(q3(y1)))",
+      "y1",
+      "q3(q2(q2(u1)))",
+      "q3(q3(u1))",
+      "y1",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 2,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3972351584085652,
+    "genes": [
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q3(q2(q2(u1)))",
+      "q3(mul(mul(y1, u1), y1))",
+      "q2(q3(y1))",
+      "q2(q2(u1))",
+      "y1",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 3,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.355559121630551,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "y1",
+      "y1",
+      "q3(q2(q1(u1)))",
+      "q3(q2(q2(y1)))",
+      "q2(mul(u1, mul(y1, y1)))",
+      "q1(y1)",
+      "q2(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 4,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.2781378337196525,
+    "genes": [
+      "q3(q3(q2(u1)))",
+      "q3(q2(q2(y1)))",
+      "q1(q3(q2(y1)))",
+      "q3(q3(q2(u1)))",
+      "q2(q2(q1(u1)))",
+      "q3(q3(u1))",
+      "y1",
+      "mul(q2(q3(u1)), q3(mul(y1, y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 5,
+    "scenario": "karatsuba",
+    "C": 74.34375,
+    "val": 2.0154456527544355,
+    "genes": [
+      "q1(y1)",
+      "q2(q3(q2(u1)))",
+      "q3(q3(u1))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "y1",
+      "q3(q2(y1))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 6,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4079220935535615,
+    "genes": [
+      "q1(q3(u1))",
+      "q3(q3(y1))",
+      "q2(q2(q3(u1)))",
+      "q3(q3(q1(y1)))",
+      "y1",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q2(q3(q3(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 7,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": Infinity,
+    "genes": [
+      "q1(q1(q3(u1)))",
+      "q3(q2(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(u1))",
+      "q1(q3(q2(u1)))",
+      "mul(mul(q1(y1), q3(y1)), q3(q1(y1)))",
+      "q1(q3(q2(y1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 8,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4309455630682304,
+    "genes": [
+      "q1(y1)",
+      "q3(q2(q3(u1)))",
+      "y1",
+      "q2(q2(q2(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q1(q3(u1)))",
+      "y1",
+      "q2(mul(mul(u1, y1), q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 9,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4155761416685462,
+    "genes": [
+      "y1",
+      "q2(q1(q1(u1)))",
+      "y1",
+      "q3(q2(q2(u1)))",
+      "q3(mul(mul(y1, u1), q2(u1)))",
+      "q2(q3(y1))",
+      "q3(q2(q3(u1)))",
+      "q3(q2(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 10,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3111305879350437,
+    "genes": [
+      "q2(q3(q2(y1)))",
+      "mul(mul(q3(u1), q1(y1)), q3(q1(u1)))",
+      "y1",
+      "q3(u1)",
+      "y1",
+      "q3(q2(q2(u1)))",
+      "q1(y1)",
+      "q3(q2(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 11,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3555591215124962,
+    "genes": [
+      "q2(q2(q3(y1)))",
+      "q2(q2(q2(u1)))",
+      "q1(y1)",
+      "mul(q2(y1), q2(mul(u1, y1)))",
+      "q2(q3(q2(y1)))",
+      "y1",
+      "q2(q3(q3(u1)))",
+      "q1(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 12,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.5707251889112723,
+    "genes": [
+      "q1(q3(q3(y1)))",
+      "q3(q1(q3(y1)))",
+      "y1",
+      "q1(q2(q3(y1)))",
+      "q2(q3(q1(u1)))",
+      "q1(q3(u1))",
+      "q3(u1)",
+      "q3(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 13,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.5473864518783458,
+    "genes": [
+      "q3(q1(u1))",
+      "q3(u1)",
+      "y1",
+      "q3(q2(u1))",
+      "q3(q3(u1))",
+      "q2(q2(u1))",
+      "q2(q3(q2(y1)))",
+      "q2(q2(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 14,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.2885927432206232,
+    "genes": [
+      "y1",
+      "y1",
+      "q3(q3(y1))",
+      "q3(mul(q3(y1), mul(y1, u1)))",
+      "q2(q2(u1))",
+      "q3(q3(q1(y1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 15,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3203847073776964,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "q3(q3(q1(y1)))",
+      "q3(q3(q1(u1)))",
+      "y1",
+      "q1(y1)",
+      "mul(q1(q1(y1)), q2(mul(y1, u1)))",
+      "q1(y1)",
+      "q3(q2(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 16,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 4.479868586345388,
+    "genes": [
+      "q1(q2(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q2(q3(q3(u1)))",
+      "q3(q1(q2(y1)))",
+      "y1",
+      "mul(q2(q2(u1)), mul(y1, q3(y1)))",
+      "y1",
+      "q1(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 17,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.5789925514510132,
+    "genes": [
+      "q1(q3(q3(y1)))",
+      "q2(q3(q3(u1)))",
+      "q3(q3(y1))",
+      "y1",
+      "q1(q3(q3(u1)))",
+      "y1",
+      "q1(q3(q1(u1)))",
+      "u1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 18,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 3.1389235208566686,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q3(q1(q1(u1)))",
+      "y1",
+      "q3(y1)",
+      "q1(q3(q3(y1)))",
+      "q1(y1)",
+      "q2(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 19,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.343059593032506,
+    "genes": [
+      "q1(q1(q2(u1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q1(q3(q3(u1)))",
+      "q3(q3(y1))",
+      "q2(q3(q2(y1)))",
+      "y1",
+      "y1",
+      "q3(q3(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 20,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.138687721862569,
+    "genes": [
+      "q3(q2(q3(u1)))",
+      "y1",
+      "q3(q1(y1))",
+      "q2(q2(q3(y1)))",
+      "y1",
+      "q2(q3(u1))",
+      "q2(q3(q1(u1)))",
+      "q3(mul(y1, mul(y1, y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 21,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.2458680086687117,
+    "genes": [
+      "q3(mul(mul(u1, y1), q3(y1)))",
+      "q1(q3(q2(y1)))",
+      "q1(q3(q3(u1)))",
+      "q1(q1(q2(u1)))",
+      "y1",
+      "q3(q2(q1(u1)))",
+      "q1(q3(q3(y1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 22,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 1.5375370250618285,
+    "genes": [
+      "q2(u1)",
+      "q1(q3(u1))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q2(q2(q3(y1)))",
+      "q3(q3(u1))",
+      "q2(q3(u1))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 23,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.3714728850373217,
+    "genes": [
+      "q2(mul(q3(u1), mul(y1, u1)))",
+      "y1",
+      "q2(q3(q3(u1)))",
+      "q2(q2(q3(u1)))",
+      "q3(q2(q2(y1)))",
+      "q3(q3(u1))",
+      "q1(y1)",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 24,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.1526913252349507,
+    "genes": [
+      "q1(y1)",
+      "q3(mul(q1(u1), mul(y1, u1)))",
+      "q1(q2(q3(u1)))",
+      "y1",
+      "q1(y1)",
+      "q3(q2(q3(u1)))",
+      "q1(q3(q3(y1)))",
+      "q3(u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 25,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.4778994592087247,
+    "genes": [
+      "q3(q1(q3(u1)))",
+      "q3(q1(q1(u1)))",
+      "q3(q3(q2(u1)))",
+      "q1(q3(q3(y1)))",
+      "mul(q3(q3(u1)), mul(q3(u1), q2(y1)))",
+      "y1",
+      "q2(q3(u1))",
+      "q3(q2(y1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 26,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.2881936518532247,
+    "genes": [
+      "q3(q1(q3(y1)))",
+      "q1(y1)",
+      "q1(q2(q1(u1)))",
+      "y1",
+      "q2(q3(q3(u1)))",
+      "q3(q2(q2(u1)))",
+      "q3(mul(mul(u1, u1), q3(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 27,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.2031771338611859,
+    "genes": [
+      "q1(q3(q3(u1)))",
+      "q3(q1(q1(u1)))",
+      "y1",
+      "y1",
+      "q3(u1)",
+      "q2(q3(q2(y1)))",
+      "q3(mul(mul(u1, y1), q3(y1)))",
+      "q1(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 28,
+    "scenario": "karatsuba",
+    "C": 86.734375,
+    "val": 2.3969439364626797,
+    "genes": [
+      "q2(y1)",
+      "q1(y1)",
+      "q3(q3(u1))",
+      "q2(q2(q3(y1)))",
+      "y1",
+      "y1",
+      "q3(q3(q2(u1)))",
+      "q2(q2(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green-K",
+    "seed": 29,
+    "scenario": "karatsuba",
+    "C": 109.515625,
+    "val": 1.384353794924409,
+    "genes": [
+      "y1",
+      "q3(q2(q2(u1)))",
+      "mul(q1(q2(y1)), mul(q3(y1), q1(u1)))",
+      "q2(q3(q1(u1)))",
+      "q3(q3(q2(u1)))",
+      "q1(y1)",
+      "q1(y1)",
+      "q1(q3(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 7.142928451732104e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.0443950575286657e-15,
+    "genes": [
+      "u1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.133304983038018e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 7.142928451732104e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(u1, y1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.2648814273871748e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.1233430408575456e-15,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "y1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 9.267039282010344e-16,
+    "genes": [
+      "y1",
+      "y1",
+      "mul(u1, y1)",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.4896201714327896e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(u1, y1)",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 5.29658930435707e-16,
+    "genes": [
+      "mul(y1, u1)",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 9.03448256430443e-16,
+    "genes": [
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.2648814273871748e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 8.878886681264161e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.2031003816395871e-15,
+    "genes": [
+      "y1",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 4.084126682246382e-16,
+    "genes": [
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.252858957327326e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.5944835719487724e-15,
+    "genes": [
+      "mul(u1, y1)",
+      "y1",
+      "u1",
+      "y1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.947580698642516e-15,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.1677456228804145e-15,
+    "genes": [
+      "y1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.2489343803753984e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.4083468322922223e-15,
+    "genes": [
+      "mul(u1, y1)",
+      "mul(u1, y1)",
+      "u1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.4896201714327896e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(y1, u1)",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 9.03448256430443e-16,
+    "genes": [
+      "u1",
+      "mul(u1, y1)",
+      "y1",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 7.142928451732104e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 9.03448256430443e-16,
+    "genes": [
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 4.732199139948951e-16,
+    "genes": [
+      "y1",
+      "mul(u1, y1)",
+      "mul(y1, u1)",
+      "u1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.035053617371294e-15,
+    "genes": [
+      "mul(y1, u1)",
+      "u1",
+      "u1",
+      "y1",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.9964913575063468e-15,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "u1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.2862667904077988e-15,
+    "genes": [
+      "y1",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 8.878886681264161e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "y1",
+      "mul(u1, y1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "Green",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 1.044925924616553e-15,
+    "genes": [
+      "u1",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.3132865428115775e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.26099261257318e-16,
+    "genes": [
+      "y1",
+      "y1",
+      "u1",
+      "mul(u1, y1)",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.3132865428115775e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 6.156117865385776e-16,
+    "genes": [
+      "y1",
+      "y1",
+      "mul(y1, u1)",
+      "u1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 3.25075120964195e-16,
+    "genes": [
+      "y1",
+      "u1",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 7.495765931930908e-16,
+    "genes": [
+      "y1",
+      "mul(y1, u1)",
+      "u1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 5.369700045505021e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "mul(u1, y1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "MO-lex",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.821447395164707e-16,
+    "genes": [
+      "y1",
+      "mul(y1, u1)",
+      "u1",
+      "q2(y1)",
+      "mul(y1, u1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 3.207588230161238e-16,
+    "genes": [
+      "mul(y1, mul(u1, u1))",
+      "mul(y1, u1)",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 2.1438683212081093e-16,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "mul(q2(y1), y1)",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 2.8354989479731118e-16,
+    "genes": [
+      "mul(mul(u1, y1), mul(u1, y1))",
+      "mul(y1, u1)",
+      "q2(u1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.6508865607196936e-16,
+    "genes": [
+      "u1",
+      "y1",
+      "u1",
+      "q2(u1)",
+      "mul(u1, y1)"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 2.4491431876450457e-16,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "q2(u1)",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 3.785052985690101e-16,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 13.0,
+    "val": 2.582002893023232e-16,
+    "genes": [
+      "q1(q1(u1))",
+      "mul(mul(y1, y1), q1(u1))",
+      "u1",
+      "mul(y1, u1)",
+      "y1"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 2.043428099927965e-16,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "mul(y1, u1)",
+      "mul(y1, mul(y1, y1))",
+      "y1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.3458695068017613e-16,
+    "genes": [
+      "mul(y1, u1)",
+      "u1",
+      "y1",
+      "y1",
+      "q2(y1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.7227928526362325e-16,
+    "genes": [
+      "q1(u1)",
+      "y1",
+      "mul(y1, u1)",
+      "y1",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.3458695068017613e-16,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "y1",
+      "y1",
+      "q2(y1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 3.323602781771804e-16,
+    "genes": [
+      "u1",
+      "q2(u1)",
+      "mul(u1, y1)",
+      "y1",
+      "y1"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 2.4149382677767686e-16,
+    "genes": [
+      "q2(mul(u1, y1))",
+      "y1",
+      "u1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 2.700813343538282e-16,
+    "genes": [
+      "u1",
+      "u1",
+      "y1",
+      "y1",
+      "mul(y1, u1)"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 3.048215388922267e-16,
+    "genes": [
+      "y1",
+      "mul(u1, y1)",
+      "y1",
+      "mul(u1, mul(u1, y1))",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 3.260402014746928e-16,
+    "genes": [
+      "y1",
+      "q2(u1)",
+      "mul(y1, u1)",
+      "u1",
+      "q1(y1)"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 2.540337108856375e-16,
+    "genes": [
+      "mul(y1, y1)",
+      "y1",
+      "mul(y1, mul(u1, u1))",
+      "mul(y1, u1)",
+      "u1"
+    ],
+    "lag": 1
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.1087021151122103e-16,
+    "genes": [
+      "q2(q2(u1))",
+      "mul(u1, y1)",
+      "u1",
+      "u1",
+      "y1"
+    ],
+    "lag": 4
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 2.4491431876450457e-16,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "q2(u1)",
+      "mul(u1, y1)",
+      "u1"
+    ],
+    "lag": 2
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.3458695068017613e-16,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "y1",
+      "y1",
+      "q2(y1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.3458695068017613e-16,
+    "genes": [
+      "mul(u1, y1)",
+      "u1",
+      "y1",
+      "y1",
+      "q1(q1(y1))"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.3458695068017613e-16,
+    "genes": [
+      "mul(y1, u1)",
+      "u1",
+      "y1",
+      "y1",
+      "q2(y1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E1",
+    "config": "SO",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 2.3458695068017613e-16,
+    "genes": [
+      "mul(y1, u1)",
+      "u1",
+      "y1",
+      "y1",
+      "q2(y1)"
+    ],
+    "lag": 3
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.0283362316288928,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "mul(q1(y1), q1(u1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892816,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892834,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.0283362316288928,
+    "genes": [
+      "mul(q1(u1), q1(y1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889271,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028713772295473443,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(y1), q2(u1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892834,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892757,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892816,
+    "genes": [
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)",
+      "mul(q1(y1), q1(u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889276,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892816,
+    "genes": [
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889281,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892813,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889272,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892785,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892802,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(y1), q1(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892723,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028127236116949353,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "q1(y1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.029240311556464994,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q2(y1), q1(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028055878467765197,
+    "genes": [
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))",
+      "q1(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892834,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889276,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))",
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "Green",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892854,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028621296410020255,
+    "genes": [
+      "q1(u1)",
+      "mul(u1, q2(u1))",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028055878467765197,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028809424244161618,
+    "genes": [
+      "mul(u1, q1(u1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "mul(q1(y1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.0281884447599459,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "mul(q2(y1), q1(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028621296410020196,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(u1, q2(u1))",
+      "mul(q1(y1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.029159056587540748,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q2(y1), q1(y1))",
+      "mul(q1(u1), u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028055878467765152,
+    "genes": [
+      "q1(u1)",
+      "q1(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 0.0280374199234565,
+    "genes": [
+      "y1",
+      "q1(q2(y1))",
+      "mul(q1(y1), q1(u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028055878467765197,
+    "genes": [
+      "mul(q1(y1), q1(u1))",
+      "q2(q1(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889281,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028188444759945874,
+    "genes": [
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "mul(q1(y1), q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028621296410020154,
+    "genes": [
+      "mul(u1, q2(u1))",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028750982584347478,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q2(u1), q1(y1))",
+      "q2(q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.02818844475994596,
+    "genes": [
+      "mul(q1(u1), q1(y1))",
+      "mul(q2(y1), q1(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028055878467765253,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.02899960310140295,
+    "genes": [
+      "mul(q2(y1), u1)",
+      "q1(q1(y1))",
+      "q2(q2(y1))",
+      "q2(y1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.02818268848553528,
+    "genes": [
+      "mul(y1, q2(y1))",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889271,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028946790859196353,
+    "genes": [
+      "q1(u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(y1), u1)",
+      "q1(mul(y1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.02818268848553524,
+    "genes": [
+      "mul(q1(y1), q1(u1))",
+      "q2(q2(y1))",
+      "mul(q2(y1), y1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892795,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028055878467765184,
+    "genes": [
+      "q1(u1)",
+      "q2(q1(y1))",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.02833623162889277,
+    "genes": [
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 7.0,
+    "val": 0.028336231628892795,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q2(q2(y1))",
+      "q1(mul(y1, u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 9.0,
+    "val": 0.028336509178523917,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "u1",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 11.0,
+    "val": 0.028061057151065962,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q1(q2(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(y1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.02815717361602156,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(u1)",
+      "mul(q1(u1), q1(y1))",
+      "mul(y1, u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028182688485535283,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "mul(y1, q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.02862129641002024,
+    "genes": [
+      "q2(q2(y1))",
+      "mul(q2(u1), u1)",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "MO-lex",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 10.0,
+    "val": 0.028074039740755747,
+    "genes": [
+      "q1(u1)",
+      "mul(q1(y1), u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028439045742316746,
+    "genes": [
+      "q1(u1)",
+      "mul(u1, q1(y1))",
+      "q1(mul(y1, y1))",
+      "q1(y1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027974296687295588,
+    "genes": [
+      "q2(mul(y1, y1))",
+      "q2(q1(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(y1), q1(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027942879613123903,
+    "genes": [
+      "mul(y1, q2(y1))",
+      "q2(q2(y1))",
+      "q1(q2(y1))",
+      "q1(u1)",
+      "mul(q1(y1), q1(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663716,
+    "genes": [
+      "q1(mul(y1, y1))",
+      "mul(u1, q2(u1))",
+      "q2(q2(y1))",
+      "q2(q1(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663872,
+    "genes": [
+      "q1(q2(y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q2(u1), u1)",
+      "mul(q1(y1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02852788859250901,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(y1)",
+      "mul(q2(y1), q1(y1))",
+      "mul(u1, q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027942879613123753,
+    "genes": [
+      "q1(u1)",
+      "q1(q2(y1))",
+      "mul(y1, q2(y1))",
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028527888592509112,
+    "genes": [
+      "mul(q2(y1), q1(y1))",
+      "q1(y1)",
+      "q1(u1)",
+      "mul(q1(y1), u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028439045742316746,
+    "genes": [
+      "mul(q1(y1), q1(y1))",
+      "q1(y1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(q1(y1), u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02794287961312382,
+    "genes": [
+      "q1(mul(u1, y1))",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(q2(y1))",
+      "mul(y1, q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02794287961312382,
+    "genes": [
+      "mul(y1, q2(y1))",
+      "q1(mul(u1, y1))",
+      "q2(q2(y1))",
+      "q1(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663657,
+    "genes": [
+      "mul(q2(u1), u1)",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "q2(q1(y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663768,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, y1))",
+      "mul(u1, q2(u1))",
+      "q2(q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663806,
+    "genes": [
+      "mul(q1(y1), q1(y1))",
+      "q2(q1(y1))",
+      "mul(u1, q2(u1))",
+      "q1(u1)",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027942879613123823,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "mul(y1, q2(y1))",
+      "q1(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028439045742316763,
+    "genes": [
+      "mul(u1, q1(y1))",
+      "q1(mul(y1, y1))",
+      "q2(q2(y1))",
+      "q1(y1)",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027942879613123882,
+    "genes": [
+      "mul(q2(y1), y1)",
+      "q2(q1(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02794252304881898,
+    "genes": [
+      "q2(q1(y1))",
+      "q1(u1)",
+      "q1(mul(y1, u1))",
+      "q1(mul(y1, y1))",
+      "q2(q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028439045742316725,
+    "genes": [
+      "q1(y1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "mul(u1, q1(y1))",
+      "q1(mul(y1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663824,
+    "genes": [
+      "mul(q1(y1), q1(y1))",
+      "q2(q1(y1))",
+      "mul(q2(u1), u1)",
+      "q2(q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02794287961312374,
+    "genes": [
+      "q2(q1(y1))",
+      "q2(q2(y1))",
+      "mul(q2(y1), y1)",
+      "q1(u1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02794287961312378,
+    "genes": [
+      "q1(u1)",
+      "q2(q1(y1))",
+      "q2(q2(y1))",
+      "mul(q1(u1), q1(y1))",
+      "mul(y1, q2(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.0284954721976637,
+    "genes": [
+      "q2(q2(y1))",
+      "mul(q1(y1), q1(y1))",
+      "mul(q2(u1), u1)",
+      "q2(q1(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027942879613123726,
+    "genes": [
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(q2(y1))",
+      "mul(q2(y1), y1)",
+      "q1(mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02849547219766375,
+    "genes": [
+      "q1(mul(y1, y1))",
+      "q2(q2(y1))",
+      "q2(q1(y1))",
+      "q1(u1)",
+      "mul(u1, q2(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02849547219766373,
+    "genes": [
+      "mul(q2(u1), u1)",
+      "q2(q1(y1))",
+      "q2(q2(y1))",
+      "q1(u1)",
+      "q1(mul(y1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028527888592509126,
+    "genes": [
+      "q2(q2(y1))",
+      "q1(y1)",
+      "q1(u1)",
+      "mul(q1(y1), u1)",
+      "mul(q2(y1), q1(y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.027942879613123823,
+    "genes": [
+      "q1(mul(y1, u1))",
+      "q2(q2(y1))",
+      "q2(q1(y1))",
+      "mul(y1, q2(y1))",
+      "q1(u1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.028495472197663782,
+    "genes": [
+      "q2(q2(y1))",
+      "q2(q1(y1))",
+      "q1(mul(y1, y1))",
+      "q1(u1)",
+      "mul(u1, q2(u1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E2",
+    "config": "SO",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 0.02843904574231672,
+    "genes": [
+      "q1(y1)",
+      "mul(q1(y1), u1)",
+      "q1(u1)",
+      "q2(q2(y1))",
+      "q1(mul(y1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.5321434210230462,
+    "genes": [
+      "q2(q1(u1))",
+      "q2(q2(u1))",
+      "q1(q1(q3(u1)))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q2(q3(q2(y1)))",
+      "q2(q3(y1))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4410116127193378,
+    "genes": [
+      "q2(q2(q3(y1)))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "y1",
+      "q3(mul(mul(u1, y1), q1(y1)))",
+      "q3(q1(q2(y1)))",
+      "q3(q1(q3(u1)))",
+      "q2(q2(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3145192490673387,
+    "genes": [
+      "y1",
+      "q3(u1)",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(u1))",
+      "y1",
+      "q1(q3(q2(y1)))",
+      "q3(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.3323004973569526,
+    "genes": [
+      "q1(q3(q3(u1)))",
+      "q1(y1)",
+      "mul(y1, y1)",
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q2(mul(u1, mul(y1, y1)))",
+      "q2(q3(u1))",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4307967602827873,
+    "genes": [
+      "q3(q3(q2(u1)))",
+      "y1",
+      "q3(q1(q3(u1)))",
+      "q3(q2(u1))",
+      "q3(q1(q3(y1)))",
+      "y1",
+      "mul(q2(u1), mul(q3(y1), q3(u1)))",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.4342685195813907,
+    "genes": [
+      "q1(u1)",
+      "q3(q3(y1))",
+      "u1",
+      "q2(u1)",
+      "u1",
+      "q1(q3(q3(y1)))",
+      "q3(q1(u1))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3209835660919624,
+    "genes": [
+      "q3(q3(y1))",
+      "y1",
+      "q3(mul(q2(u1), mul(y1, y1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q1(q3(u1)))",
+      "q2(q1(q3(u1)))",
+      "q2(q3(q3(u1)))",
+      "q3(q1(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.1296222746245836,
+    "genes": [
+      "q3(q3(y1))",
+      "q1(y1)",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q2(u1)))",
+      "q1(q3(q2(u1)))",
+      "mul(mul(q1(y1), q3(u1)), q3(q1(y1)))",
+      "q3(u1)",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.360151064416237,
+    "genes": [
+      "q3(q2(q1(u1)))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q1(q3(y1))",
+      "q2(q3(q2(y1)))",
+      "q1(q3(q3(y1)))",
+      "mul(mul(q3(y1), q3(y1)), q1(q2(u1)))",
+      "q3(q1(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4152999059897167,
+    "genes": [
+      "q2(q3(q2(y1)))",
+      "q3(q1(q2(u1)))",
+      "y1",
+      "q3(q2(u1))",
+      "q3(mul(mul(y1, u1), q2(u1)))",
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q1(q2(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 10.354339282428745,
+    "genes": [
+      "q3(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "q2(q3(q2(y1)))",
+      "q1(q3(mul(y1, y1)))",
+      "q2(q3(q1(y1)))",
+      "q3(q2(q2(u1)))",
+      "q2(mul(q1(y1), mul(y1, u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.2638466646490751,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "q1(y1)",
+      "mul(q3(q2(u1)), q2(mul(y1, u1)))",
+      "q2(q3(q3(u1)))",
+      "q1(q1(q2(u1)))",
+      "q3(q3(u1))",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.2487607958397393,
+    "genes": [
+      "q2(q3(u1))",
+      "q1(q2(u1))",
+      "q3(q1(q3(y1)))",
+      "y1",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q1(y1)))",
+      "q2(q3(q1(u1)))",
+      "q3(mul(q3(u1), mul(y1, u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.2926707257455405,
+    "genes": [
+      "q3(q2(q2(y1)))",
+      "q3(q1(q3(u1)))",
+      "q3(q3(u1))",
+      "q2(q3(y1))",
+      "y1",
+      "mul(q3(q2(y1)), q3(mul(y1, u1)))",
+      "q1(q2(q2(y1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4309455630588652,
+    "genes": [
+      "y1",
+      "q3(q3(u1))",
+      "q1(y1)",
+      "q2(q3(q3(u1)))",
+      "q3(q1(q3(u1)))",
+      "q2(mul(q2(u1), mul(y1, u1)))",
+      "q3(q3(u1))",
+      "q3(q1(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.4245364143084573,
+    "genes": [
+      "q3(q3(y1))",
+      "q2(u1)",
+      "q2(q3(q2(y1)))",
+      "y1",
+      "q1(u1)",
+      "u1",
+      "q3(u1)",
+      "q3(u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.2195527243283317,
+    "genes": [
+      "q1(q2(u1))",
+      "q1(q3(q3(u1)))",
+      "q2(q3(q3(u1)))",
+      "q1(q3(q3(y1)))",
+      "q3(q2(y1))",
+      "y1",
+      "y1",
+      "q3(mul(q2(y1), mul(y1, u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.5929985885212954,
+    "genes": [
+      "q2(q3(q2(y1)))",
+      "y1",
+      "q1(q2(q3(u1)))",
+      "q1(q3(q2(u1)))",
+      "q3(u1)",
+      "q3(q2(q1(y1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q1(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.440488148518387,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q3(q3(q1(u1)))",
+      "q3(q3(u1))",
+      "q1(y1)",
+      "q1(q3(q3(y1)))",
+      "q3(q2(q2(u1)))",
+      "mul(q3(q2(u1)), mul(q1(u1), q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4081945296215865,
+    "genes": [
+      "y1",
+      "q2(q2(q3(y1)))",
+      "y1",
+      "q3(q2(u1))",
+      "q3(q3(y1))",
+      "q2(q3(q3(u1)))",
+      "q1(q2(q1(u1)))",
+      "mul(mul(q1(y1), q3(y1)), q2(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3388568980842235,
+    "genes": [
+      "q3(q2(q3(u1)))",
+      "q3(q1(q3(u1)))",
+      "y1",
+      "q2(q2(u1))",
+      "q1(y1)",
+      "mul(q3(mul(u1, u1)), q2(y1))",
+      "q3(q3(q1(y1)))",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3087662775637063,
+    "genes": [
+      "q2(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "q1(y1)",
+      "q3(q2(q2(u1)))",
+      "q2(q3(q2(y1)))",
+      "y1",
+      "y1",
+      "q1(mul(q3(u1), mul(y1, y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.4623610430250087,
+    "genes": [
+      "q3(u1)",
+      "u1",
+      "q2(q3(q2(y1)))",
+      "y1",
+      "q2(u1)",
+      "q3(q3(q3(y1)))",
+      "q2(q3(u1))",
+      "mul(mul(u1, q1(y1)), mul(mul(u1, y1), q2(u1)))"
+    ],
+    "lag": 10
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.2268967061082292,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "q1(q2(u1))",
+      "y1",
+      "y1",
+      "mul(q3(q2(u1)), q3(mul(u1, u1)))",
+      "q3(q2(q2(y1)))",
+      "q2(q3(u1))",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4538423142133703,
+    "genes": [
+      "q1(q3(q3(u1)))",
+      "q3(mul(q2(u1), mul(y1, u1)))",
+      "q1(q3(q1(u1)))",
+      "y1",
+      "y1",
+      "q3(q2(y1))",
+      "q1(q3(q3(y1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 12.0,
+    "val": 3.963967766709594,
+    "genes": [
+      "q3(q3(q2(u1)))",
+      "q3(q2(u1))",
+      "y1",
+      "q1(y1)",
+      "q2(q3(q2(u1)))",
+      "y1",
+      "y1",
+      "q3(q3(y1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4047718996223197,
+    "genes": [
+      "q1(q2(q3(y1)))",
+      "y1",
+      "q1(q3(q3(y1)))",
+      "mul(q3(mul(u1, y1)), q3(q1(y1)))",
+      "q2(q3(u1))",
+      "q3(q2(q3(u1)))",
+      "y1",
+      "q2(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 2.3969439364593192,
+    "genes": [
+      "y1",
+      "q3(q1(q3(u1)))",
+      "q3(q1(q2(u1)))",
+      "q2(y1)",
+      "q1(q3(q3(y1)))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.4245364143143138,
+    "genes": [
+      "q2(u1)",
+      "y1",
+      "q3(q3(y1))",
+      "q1(u1)",
+      "u1",
+      "u1",
+      "q3(q2(q2(y1)))",
+      "q3(u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "Green",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 2.3969439364639524,
+    "genes": [
+      "q1(y1)",
+      "q1(q3(q3(u1)))",
+      "y1",
+      "q3(q1(q2(u1)))",
+      "q1(q3(q3(y1)))",
+      "q2(y1)",
+      "q2(q3(q3(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4114130381953272,
+    "genes": [
+      "q3(q1(q3(u1)))",
+      "y1",
+      "q1(y1)",
+      "y1",
+      "q2(q3(q1(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q3(q2(u1)))",
+      "mul(mul(q3(u1), q2(y1)), q2(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3685669607668864,
+    "genes": [
+      "q3(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "q1(q3(q3(y1)))",
+      "q3(mul(mul(y1, y1), q1(u1)))",
+      "q2(q1(q3(y1)))",
+      "q1(q1(q3(u1)))",
+      "q1(q3(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.2543238892233024,
+    "genes": [
+      "q1(q3(q2(u1)))",
+      "mul(q2(q3(u1)), mul(q3(y1), q3(y1)))",
+      "q1(q2(q2(u1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q1(q3(q2(y1)))",
+      "y1",
+      "q3(q2(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4114130377786807,
+    "genes": [
+      "q1(y1)",
+      "q2(q3(q3(u1)))",
+      "q3(q3(q1(u1)))",
+      "q1(y1)",
+      "y1",
+      "mul(q1(q2(u1)), mul(q2(y1), q3(u1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4073547064290304,
+    "genes": [
+      "q1(y1)",
+      "q1(q3(q3(u1)))",
+      "q3(q2(q2(y1)))",
+      "q2(q1(q3(u1)))",
+      "q1(mul(q2(u1), mul(y1, y1)))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.339835537085711,
+    "genes": [
+      "q1(q3(q3(u1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q1(q3(u1)))",
+      "q3(q2(q3(u1)))",
+      "mul(q2(q1(u1)), mul(q2(y1), q1(y1)))",
+      "y1",
+      "q1(y1)",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4670512654174257,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q2(q2(q2(u1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q3(q1(y1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q1(q3(q3(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.1706935881100962,
+    "genes": [
+      "q2(q2(q3(u1)))",
+      "y1",
+      "mul(q2(q3(y1)), mul(u1, y1))",
+      "q3(y1)",
+      "q3(q2(q3(u1)))",
+      "mul(mul(q1(y1), q3(u1)), q3(u1))",
+      "q3(q3(q2(y1)))",
+      "q2(q2(q2(u1)))"
+    ],
+    "lag": 9
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4670512654674763,
+    "genes": [
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q2(u1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q3(q3(u1))",
+      "q2(q1(q3(y1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.299601640550438,
+    "genes": [
+      "y1",
+      "q3(q1(q1(u1)))",
+      "q1(y1)",
+      "q3(q1(q1(u1)))",
+      "q3(mul(mul(u1, u1), q2(u1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q2(q2(u1)))",
+      "q3(q2(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 21.0,
+    "val": 0.5000326217763083,
+    "genes": [
+      "mul(q2(u1), mul(u1, u1))",
+      "mul(q3(q2(y1)), q2(y1))",
+      "q2(q3(u1))",
+      "q2(q3(y1))",
+      "q3(u1)",
+      "mul(mul(q2(u1), q1(u1)), q2(q2(u1)))",
+      "mul(q1(u1), q2(mul(u1, u1)))",
+      "q2(q3(u1))"
+    ],
+    "lag": 6
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.5731477329613914,
+    "genes": [
+      "q2(u1)",
+      "mul(mul(y1, u1), q3(u1))",
+      "mul(u1, mul(q3(u1), y1))",
+      "mul(q3(q2(u1)), q2(mul(u1, y1)))",
+      "mul(u1, mul(u1, u1))",
+      "q2(q3(q2(u1)))",
+      "q1(q3(y1))",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4309455630478096,
+    "genes": [
+      "q2(q2(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q2(q1(q3(u1)))",
+      "q2(q3(q1(u1)))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "mul(q2(mul(u1, y1)), q2(q2(u1)))",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.4978106212189835,
+    "genes": [
+      "mul(mul(q3(y1), q3(u1)), q3(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q3(q1(q3(u1)))",
+      "q2(q3(q1(u1)))",
+      "q1(q3(mul(y1, y1)))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.424536414312042,
+    "genes": [
+      "y1",
+      "q1(q3(q2(y1)))",
+      "q1(u1)",
+      "q2(u1)",
+      "y1",
+      "q3(q3(q1(y1)))",
+      "u1",
+      "q2(q1(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.0777152814237663,
+    "genes": [
+      "q3(q3(q3(u1)))",
+      "q1(q2(u1))",
+      "q3(mul(u1, mul(y1, u1)))",
+      "y1",
+      "mul(mul(q1(u1), q1(u1)), q3(q3(y1)))",
+      "q3(q2(q3(u1)))",
+      "q3(q3(q3(y1)))",
+      "q3(q1(y1))"
+    ],
+    "lag": 10
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3737644606081234,
+    "genes": [
+      "y1",
+      "q3(q3(u1))",
+      "q1(q3(q3(y1)))",
+      "q1(q2(q3(y1)))",
+      "y1",
+      "mul(mul(q3(u1), q3(y1)), q2(q3(y1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4309455630836678,
+    "genes": [
+      "q2(q2(q3(y1)))",
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q1(y1)",
+      "q2(mul(q2(u1), mul(u1, y1)))",
+      "y1",
+      "q3(q1(q3(u1)))",
+      "q3(q3(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.474250042250113,
+    "genes": [
+      "q3(q3(q2(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q3(q1(u1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(y1))",
+      "q3(q3(u1))",
+      "y1",
+      "mul(q3(q1(y1)), mul(q3(u1), q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4670512654687449,
+    "genes": [
+      "q3(mul(mul(y1, u1), q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q3(u1)))",
+      "q3(q3(u1))",
+      "q3(q3(y1))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q3(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3814531183213783,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "q2(q2(q3(y1)))",
+      "q2(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "q3(mul(q2(u1), mul(u1, u1)))",
+      "q3(q1(q3(u1)))",
+      "q1(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.1192204615298393,
+    "genes": [
+      "mul(mul(u1, u1), q3(q3(y1)))",
+      "q3(q3(q3(u1)))",
+      "q1(mul(mul(u1, y1), q3(u1)))",
+      "q2(q3(q2(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q2(q3(u1)))",
+      "y1",
+      "q3(y1)"
+    ],
+    "lag": 9
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.4245364143079842,
+    "genes": [
+      "q3(q3(y1))",
+      "u1",
+      "q2(q3(q2(y1)))",
+      "q1(u1)",
+      "q1(q2(q3(y1)))",
+      "q3(u1)",
+      "y1",
+      "q2(u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 0.06446755592298278,
+    "genes": [
+      "mul(q3(q1(u1)), mul(q2(y1), q1(u1)))",
+      "mul(mul(u1, u1), y1)",
+      "q2(q1(q1(u1)))",
+      "q3(q2(u1))",
+      "mul(mul(q1(u1), q1(u1)), y1)",
+      "y1",
+      "y1",
+      "mul(u1, mul(u1, y1))"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4670512654698473,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "q3(mul(q3(u1), mul(y1, u1)))",
+      "y1",
+      "q3(q3(u1))",
+      "q2(q2(q2(y1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q3(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3398355368559265,
+    "genes": [
+      "q2(q3(q2(u1)))",
+      "y1",
+      "q3(q3(q2(u1)))",
+      "q1(q3(q3(y1)))",
+      "mul(q3(u1), mul(q2(y1), q1(y1)))",
+      "q1(y1)",
+      "q3(q1(q3(y1)))",
+      "q2(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4181047658819748,
+    "genes": [
+      "y1",
+      "mul(q3(q1(u1)), mul(q1(y1), q3(u1)))",
+      "q1(q3(q3(y1)))",
+      "q1(y1)",
+      "q2(q2(q2(u1)))",
+      "q1(y1)",
+      "q3(q2(q2(u1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4296840167920426,
+    "genes": [
+      "q3(q3(y1))",
+      "q2(q3(q1(u1)))",
+      "y1",
+      "y1",
+      "q3(q3(q1(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(mul(q1(u1), mul(y1, y1)))",
+      "q3(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.5473864518772669,
+    "genes": [
+      "q3(u1)",
+      "q1(q3(u1))",
+      "q3(q3(y1))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(u1))",
+      "q2(q2(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "MO-lex",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": Infinity,
+    "genes": [
+      "q2(q3(q2(y1)))",
+      "q3(q1(q3(u1)))",
+      "mul(q1(q2(y1)), mul(q3(y1), q3(y1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(q1(y1)))",
+      "q3(q3(u1))",
+      "y1",
+      "q3(q3(y1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 0,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.4201369254348997,
+    "genes": [
+      "q3(q1(q3(u1)))",
+      "y1",
+      "q1(y1)",
+      "mul(q3(u1), q2(q2(y1)))",
+      "q2(q3(q1(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q3(q2(u1)))",
+      "mul(mul(q3(u1), q2(y1)), q2(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 1,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3685669607668864,
+    "genes": [
+      "q3(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "y1",
+      "q1(q3(q3(y1)))",
+      "q3(mul(mul(y1, y1), q1(u1)))",
+      "q2(q1(q3(y1)))",
+      "q1(q1(q3(u1)))",
+      "q1(q3(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 2,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.2522088427975897,
+    "genes": [
+      "q2(q1(q3(u1)))",
+      "mul(q2(q3(u1)), mul(q3(y1), q3(y1)))",
+      "q1(q2(q2(u1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q1(q3(q2(y1)))",
+      "y1",
+      "mul(u1, u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 3,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.3937274818636392,
+    "genes": [
+      "q1(y1)",
+      "q3(q2(q3(u1)))",
+      "q3(q1(q3(u1)))",
+      "q3(q3(y1))",
+      "y1",
+      "mul(q1(q2(u1)), mul(q2(y1), q3(u1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 4,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.3847582396988163,
+    "genes": [
+      "q1(y1)",
+      "q1(q3(q3(u1)))",
+      "q3(q2(q2(y1)))",
+      "q2(q1(q3(y1)))",
+      "q1(mul(q2(u1), mul(y1, y1)))",
+      "q3(q3(q2(u1)))",
+      "q1(q3(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 5,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.318735813192184,
+    "genes": [
+      "q1(q3(q3(u1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q1(q3(u1)))",
+      "q3(q2(q3(u1)))",
+      "mul(q2(q1(u1)), mul(q1(y1), q2(y1)))",
+      "q3(q3(y1))",
+      "q1(y1)",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 6,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.503138715081509,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "y1",
+      "q2(q2(q2(u1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q3(q1(y1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q1(q3(q3(u1)))",
+      "mul(q3(q3(y1)), u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 7,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.1706935881100962,
+    "genes": [
+      "q2(q2(q3(u1)))",
+      "y1",
+      "mul(q2(q3(y1)), mul(u1, y1))",
+      "q3(y1)",
+      "q3(q2(q3(u1)))",
+      "mul(mul(q1(y1), q3(u1)), q3(u1))",
+      "q3(q3(q2(y1)))",
+      "q2(q2(q2(u1)))"
+    ],
+    "lag": 9
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 8,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.4670512654674763,
+    "genes": [
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q2(u1)))",
+      "q3(mul(q3(u1), mul(u1, y1)))",
+      "q3(q3(u1))",
+      "q2(q1(q3(y1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 9,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.300967457472379,
+    "genes": [
+      "y1",
+      "q3(q2(q2(u1)))",
+      "q1(y1)",
+      "q3(q1(q1(u1)))",
+      "q3(mul(mul(u1, u1), q2(u1)))",
+      "mul(q3(q3(u1)), mul(y1, y1))",
+      "q2(q2(q2(u1)))",
+      "q3(q2(q2(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 10,
+    "scenario": "ops",
+    "C": 25.0,
+    "val": 0.5117397039527375,
+    "genes": [
+      "mul(q2(u1), mul(u1, u1))",
+      "mul(q3(q2(u1)), q3(q2(y1)))",
+      "q2(q3(y1))",
+      "q2(u1)",
+      "q3(u1)",
+      "mul(mul(q2(u1), q1(u1)), q2(q2(u1)))",
+      "mul(q1(u1), q2(mul(u1, u1)))",
+      "mul(q2(u1), mul(y1, u1))"
+    ],
+    "lag": 6
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 11,
+    "scenario": "ops",
+    "C": 24.0,
+    "val": 0.15936494644949042,
+    "genes": [
+      "q2(u1)",
+      "mul(mul(y1, u1), q3(u1))",
+      "mul(q3(y1), mul(u1, y1))",
+      "mul(q3(q2(u1)), q2(mul(u1, y1)))",
+      "mul(u1, mul(u1, u1))",
+      "q3(q2(u1))",
+      "q1(q3(y1))",
+      "q2(q2(q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 12,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.413237231933367,
+    "genes": [
+      "q2(q2(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q2(q2(q2(y1)))",
+      "q3(q2(q1(u1)))",
+      "q2(q3(q3(u1)))",
+      "y1",
+      "mul(q2(mul(u1, y1)), q2(q2(u1)))",
+      "q1(y1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 13,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.4978106212189835,
+    "genes": [
+      "mul(mul(q3(u1), q3(y1)), q3(q3(u1)))",
+      "q3(q1(q3(y1)))",
+      "q3(q1(q3(u1)))",
+      "q2(q3(q1(u1)))",
+      "q1(q3(mul(y1, y1)))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 14,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.424536414312042,
+    "genes": [
+      "y1",
+      "q1(q3(q2(y1)))",
+      "q1(u1)",
+      "q2(u1)",
+      "y1",
+      "q3(q3(q1(y1)))",
+      "u1",
+      "q2(q1(u1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 15,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.0777152814237663,
+    "genes": [
+      "q3(q3(q3(u1)))",
+      "q1(q2(u1))",
+      "q3(mul(u1, mul(y1, u1)))",
+      "y1",
+      "mul(mul(q1(u1), q1(u1)), q3(q3(y1)))",
+      "q3(q2(q3(u1)))",
+      "q3(q3(q3(y1)))",
+      "q3(q1(y1))"
+    ],
+    "lag": 10
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 16,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3737644606081234,
+    "genes": [
+      "y1",
+      "q3(q3(u1))",
+      "q1(q3(q3(y1)))",
+      "q1(q2(q3(y1)))",
+      "y1",
+      "mul(mul(q3(u1), q3(y1)), q2(q3(y1)))",
+      "q1(q3(q3(u1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 17,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.4132372314242998,
+    "genes": [
+      "q2(q2(q3(y1)))",
+      "y1",
+      "q3(q2(q3(u1)))",
+      "q1(y1)",
+      "q2(mul(q2(u1), mul(u1, y1)))",
+      "q3(q1(q2(u1)))",
+      "q3(q1(q3(u1)))",
+      "q3(q3(y1))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 18,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.474250042250113,
+    "genes": [
+      "q3(q3(q2(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q3(q1(u1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(y1))",
+      "q3(q3(u1))",
+      "y1",
+      "mul(q3(q1(y1)), mul(q3(u1), q3(y1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 19,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.506652679879836,
+    "genes": [
+      "q3(mul(mul(y1, u1), q3(u1)))",
+      "q2(q2(q3(y1)))",
+      "q3(q2(q3(u1)))",
+      "q3(q3(u1))",
+      "q3(q3(mul(u1, u1)))",
+      "q2(q2(q2(y1)))",
+      "y1",
+      "q3(q2(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 20,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": 1.3814531183213783,
+    "genes": [
+      "q1(y1)",
+      "y1",
+      "q2(q2(q3(y1)))",
+      "q2(q3(u1))",
+      "q3(q3(q2(u1)))",
+      "q3(mul(q2(u1), mul(u1, u1)))",
+      "q3(q1(q3(u1)))",
+      "q1(q3(q1(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 21,
+    "scenario": "ops",
+    "C": 20.0,
+    "val": 1.1192204615298393,
+    "genes": [
+      "mul(mul(u1, u1), q3(q3(y1)))",
+      "q3(q3(q3(u1)))",
+      "q1(mul(mul(u1, y1), q3(u1)))",
+      "q2(q3(q2(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(q2(q3(u1)))",
+      "y1",
+      "q3(y1)"
+    ],
+    "lag": 9
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 22,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.4245364143079842,
+    "genes": [
+      "q3(q3(y1))",
+      "u1",
+      "q2(q3(q2(y1)))",
+      "q1(u1)",
+      "q1(q2(q3(y1)))",
+      "q3(u1)",
+      "y1",
+      "q2(u1)"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 23,
+    "scenario": "ops",
+    "C": 21.0,
+    "val": 0.06295452017153055,
+    "genes": [
+      "mul(q3(q1(u1)), mul(q2(y1), q1(u1)))",
+      "mul(mul(u1, u1), y1)",
+      "q2(q1(q1(u1)))",
+      "q3(q2(u1))",
+      "mul(mul(q1(u1), q1(u1)), y1)",
+      "y1",
+      "y1",
+      "mul(u1, y1)"
+    ],
+    "lag": 5
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 24,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.5027628031419384,
+    "genes": [
+      "q2(q3(q3(u1)))",
+      "q3(mul(q3(u1), mul(y1, u1)))",
+      "q2(mul(y1, q1(y1)))",
+      "q3(q3(u1))",
+      "q2(q2(q2(y1)))",
+      "q3(q3(q1(y1)))",
+      "q2(q3(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 25,
+    "scenario": "ops",
+    "C": 18.0,
+    "val": 1.3937274818561558,
+    "genes": [
+      "q3(q3(u1))",
+      "y1",
+      "q3(q3(q2(u1)))",
+      "q1(q3(q3(y1)))",
+      "mul(q3(u1), mul(q2(y1), q3(u1)))",
+      "q1(y1)",
+      "q3(q3(y1))",
+      "q2(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 26,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.4325346169094877,
+    "genes": [
+      "y1",
+      "mul(q3(q1(u1)), mul(q1(y1), q3(u1)))",
+      "q1(q3(q3(y1)))",
+      "mul(q3(q1(y1)), q1(q1(u1)))",
+      "q2(q1(q3(u1)))",
+      "q1(y1)",
+      "q3(q2(q2(u1)))",
+      "q2(q3(q3(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 27,
+    "scenario": "ops",
+    "C": 19.0,
+    "val": 1.4625786496880029,
+    "genes": [
+      "q3(q3(y1))",
+      "q1(q3(q2(u1)))",
+      "q2(mul(q2(y1), q3(y1)))",
+      "y1",
+      "q3(q3(q1(u1)))",
+      "q2(q3(q2(y1)))",
+      "q3(mul(q1(u1), mul(y1, y1)))",
+      "q3(q3(q2(u1)))"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 28,
+    "scenario": "ops",
+    "C": 14.0,
+    "val": 1.5473864518772669,
+    "genes": [
+      "q3(u1)",
+      "q1(q3(u1))",
+      "q3(q3(y1))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(q2(y1)))",
+      "q2(q3(u1))",
+      "q2(q2(q2(u1)))",
+      "y1"
+    ],
+    "lag": 8
+  },
+  {
+    "example": "E3",
+    "config": "SO",
+    "seed": 29,
+    "scenario": "ops",
+    "C": 16.0,
+    "val": Infinity,
+    "genes": [
+      "q2(q3(q2(y1)))",
+      "q3(q1(q3(u1)))",
+      "mul(q1(q2(y1)), mul(q3(y1), q3(y1)))",
+      "q3(q3(q2(u1)))",
+      "q3(q3(q1(y1)))",
+      "q3(q3(u1))",
+      "y1",
+      "q3(q3(y1))"
+    ],
+    "lag": 8
+  }
+]

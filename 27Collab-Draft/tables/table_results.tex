@@ -1,0 +1,25 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Results over 30 independent runs with $\rho=1$: median [interquartile range]. HV: hypervolume of the delivered set (identification or free-run validation error); $C_\tau$, NRMSE$_\tau$: cost and free-run validation NRMSE of the model selected by the $\tau$-rule; Rec.$_\tau$, Rec.$_\mathcal{P}$: fraction of runs in which the selected model, or at least one model of the returned set, contains the three true regressors of \eqref{eq:tutorial}. $^{\ast}$/$^{\dagger}$: Green differs from SO/MO-lex (Mann--Whitney, Holm-adjusted $p<0.05$).}
+\label{tab:results}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Ex. & Method & HV$_\mathrm{id}$ & HV$_\mathrm{val}$ & $C_\tau$ & NRMSE$_\tau$ & Rec.$_\tau$ & Rec.$_\mathcal{P}$ \\
+\midrule
+\multirow{3}{*}{E1} & SO & 0.640 [0.560, 0.640] & 0.640 [0.560, 0.640] & 9 [9, 11] & 3e-16 [2e-16, 3e-16] & 1.00 & 1.00 \\
+ & MO-lex & 0.829 [0.803, 0.829] & 0.827 [0.798, 0.827] & 7 [7, 7] & 3e-16 [3e-16, 3e-16] & 1.00 & 1.00 \\
+ & \textbf{Green} & 0.896 [0.896, 0.896]$^{\ast}$$^{\dagger}$ & 0.893 [0.893, 0.893]$^{\ast}$$^{\dagger}$ & 7 [7, 7]$^{\ast}$ & 9e-16 [7e-16, 2e-15]$^{\ast}$$^{\dagger}$ & 1.00 & 1.00 \\
+\midrule
+\multirow{3}{*}{E2} & SO & 0.508 [0.508, 0.508] & 0.505 [0.505, 0.505] & 12 [12, 12] & 0.028 [0.028, 0.028] & 0.00 & 0.00 \\
+ & MO-lex & 0.702 [0.661, 0.703] & 0.699 [0.656, 0.700] & 10 [9, 10] & 0.028 [0.028, 0.029] & 0.00 & 0.07 \\
+ & \textbf{Green} & 0.878 [0.878, 0.879]$^{\ast}$$^{\dagger}$ & 0.872 [0.872, 0.874]$^{\ast}$$^{\dagger}$ & 7 [7, 7]$^{\ast}$$^{\dagger}$ & 0.028 [0.028, 0.028] & 0.00 & 0.00 \\
+\midrule
+\multirow{3}{*}{E3} & SO & 0.736 [0.729, 0.770] & 0.000 [0.000, 0.000] & 18.5 [16, 19] & 1.394 [1.301, 1.463] & -- & -- \\
+ & MO-lex & 0.798 [0.797, 0.825] & 0.000 [0.000, 0.471] & 16 [16, 16] & 1.411 [1.340, 1.467] & -- & -- \\
+ & \textbf{Green} & 0.955 [0.932, 0.956]$^{\ast}$$^{\dagger}$ & 0.893 [0.868, 0.893]$^{\ast}$$^{\dagger}$ & 16 [14.5, 16]$^{\ast}$ & 1.420 [1.316, 1.451] & -- & -- \\
+\bottomrule
+\end{tabular}}
+\end{table*}

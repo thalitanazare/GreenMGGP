@@ -1,0 +1,66 @@
+{
+  "version": "corrected-v1",
+  "code_sha256": "e373aaaa9cd749564ec2bd226a72b6f711588fbbb54543d9d320c6cc624ecc1c",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "generations": 50,
+  "common": {
+    "problem_type": "regression",
+    "mode": "NARX",
+    "evaluationMode": "RMSE",
+    "evaluationType": "MShooting",
+    "evaluationTypeTest": "FreeRun",
+    "k": 20,
+    "generations": 50,
+    "populationSize": 100,
+    "mutationRate": 0.2,
+    "crossoverRate": 0.9,
+    "elitePercentage": 10,
+    "operators": [
+      "mul"
+    ]
+  },
+  "arms": [
+    "native",
+    "equal_calls"
+  ],
+  "equal_calls": 4510,
+  "equal_offspring": 90,
+  "ablation_costs": {
+    "terms": "distinct canonical nonconstant terms",
+    "nodes": "all tree nodes, including duplicated genes"
+  },
+  "predictor": "actual delayed factors, full initial history; no nan_to_num",
+  "estimator": "numpy.linalg.lstsq, duplicate gene columns retained",
+  "energy": "deferred; previous measurements cannot be attached to changed selected models"
+}

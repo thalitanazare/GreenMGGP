@@ -1,0 +1,19 @@
+{
+  "identification_complete": true,
+  "analysis_complete": true,
+  "publication_exports_complete": true,
+  "energy_measured": true,
+  "source_hashes": {
+    "corrected_experiments.py": "e373aaaa9cd749564ec2bd226a72b6f711588fbbb54543d9d320c6cc624ecc1c",
+    "corrected_energy.py": "71f168d6aa56a063b74fe60c82baaec2fc9be2e3affa84493cace6d68e2d0ec0",
+    "scripts/analyse_corrected.py": "19d7050d89ee2275cc154911e286012c5173eae82cdc88ed733d8bee9ce14e29",
+    "scripts/export_corrected.py": "0cfd6d17e38f6a91fcc6cc17f2c1114e57841c9d014d24ca7dc91b9170a69b6c"
+  },
+  "scientific_tests_passed": 6,
+  "rank_checked_selected_models": 450,
+  "energy_records_ready": 446,
+  "energy_validation_failures": 4,
+  "energy_session_audit": "energia/equal_calls/session_audit.json",
+  "main_manuscript_integrated": true,
+  "readability_revision": "Discussion of attainment and representative regressors expanded; data split corrected; energy table compares simulators side by side; manuscript floats adjusted."
+}
