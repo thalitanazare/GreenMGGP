@@ -4,12 +4,20 @@ Identificação de modelos polinomiais NARX por programação genética multigen
 
 O custo do polinômio sem termos repetidos é `Cρ = a + ρ b`: adições e multiplicações, incluindo coeficientes. Os pesos fixados antes das buscas são `ρ = 1` e `ρK = 729/64`. Custo aritmético não é energia medida.
 
-## Manuscrito e resultados
+## Código e resultados
 
-- [Método e resultados](27Collab-Draft/main2.pdf), com código LaTeX em [main2.tex](27Collab-Draft/main2.tex).
-- [Formulação detalhada](27Collab-Draft/main.pdf).
-- [Relatório do estudo corrigido](Resultados/corrected_v1/REPORT.md).
-- [Resultados e auditoria da nova sessão de energia](Resultados/corrected_v1/energia/equal_calls/).
+| Arquivo | Função |
+|---|---|
+| `corrected_experiments.py` | Busca corrigida com os dois pesos, orçamento igual e ablações |
+| `green_mggp.py` | Custo aritmético e seleção Green MGGP |
+| `mggp_model/` | Pacote MGGP vendorizado, preservado |
+| `energy_freerun.py` | Exemplos e funções compartilhadas pelos scripts corrigidos |
+| `scripts/analyse_corrected.py` | Análise dos resultados salvos, sem novas buscas |
+| `corrected_energy.py` | Reconstrução, análise e medição dos modelos corrigidos |
+| `power_meter.py` | Potência por powermetrics e intensidade de carbono por CodeCarbon |
+
+- [Relatório dos resultados](Resultados/corrected_v1/REPORT.md).
+- [Resultados e auditoria da sessão de energia](Resultados/corrected_v1/energia/equal_calls/).
 
 São 1.440 buscas salvas: dois pesos, três exemplos e 30 sementes. A comparação principal inclui SO, MO-lex, Green e ablações por termos/nós, com exatamente 4.510 avaliações por corrida. O braço `native` é diagnóstico e mantém os orçamentos originais. O avaliador externo corrige os atrasos igualmente para todos; divergência permanece falha. Os exemplos são gerados pelo código, sem arquivos de dados externos.
 
@@ -27,7 +35,7 @@ python -m pip install --no-deps -e ./mggp_model
 python -m unittest discover -s tests -v
 ```
 
-O pacote vendorizado `mggp_model/` é de Rafael Ávila e colaboradores, proveniente de [RafaelGAT108/mggp_model](https://github.com/RafaelGAT108/mggp_model). Sua licença MIT está preservada em `mggp_model/LICENSE`. Nenhuma correção do preditor foi aplicada dentro desse pacote. O commit de origem e os hashes do pacote de reprodução estão em `reproduction_manifest.json`.
+O pacote vendorizado `mggp_model/` é de Rafael Ávila e colaboradores, proveniente de [RafaelGAT108/mggp_model](https://github.com/RafaelGAT108/mggp_model). Sua licença MIT está preservada em `mggp_model/LICENSE`. Nenhuma correção do preditor foi aplicada dentro desse pacote. O commit de origem está registrado em `reproduction_manifest.json`, junto aos hashes da importação original.
 
 ## Refazer a análise dos resultados salvos
 
@@ -35,21 +43,12 @@ Estes comandos não iniciam buscas evolutivas nem medem energia:
 
 ```sh
 python scripts/analyse_corrected.py
-python scripts/export_corrected.py
 python corrected_energy.py --analyse
 ```
 
-Os exportadores atualizam relatórios e artefatos derivados em `Resultados/corrected_v1/`. A exportação de figuras/tabelas reutiliza células de análise de `MGGP_multiobjetivo.ipynb`; esse notebook é uma dependência do exportador, não o ponto de entrada do estudo corrigido. Os manuscritos principais são fontes editoriais separadas.
+A análise atualiza as métricas, os testes estatísticos e os relatórios em `Resultados/corrected_v1/`. A etapa de energia lê os blocos já medidos e recalcula seus resultados; não inicia uma nova sessão de medição.
 
-Para recompilar os PDFs, instale uma distribuição LaTeX com TikZ e BibTeX:
-
-```sh
-cd 27Collab-Draft
-pdflatex main2.tex
-bibtex main2
-pdflatex main2.tex
-pdflatex main2.tex
-```
+`MGGP_corrigido.ipynb` e `Energia_corrigida.ipynb` também oferecem leitura e verificação dos resultados. O script `scripts/export_corrected.py` é um exportador editorial legado que depende de fontes do manuscrito ausentes deste repositório; ele não faz parte dos comandos de reprodução acima.
 
 ## Executar novamente as buscas
 
@@ -65,7 +64,7 @@ O comando executa ambos os pesos e os dois braços, com 30 sementes por padrão.
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python corrected_experiments.py --seeds 1 --generations 3 --out Resultados/smoke
 ```
 
-O runner retoma apenas corridas faltantes e verifica a compatibilidade do protocolo/código. Para resultados novos, não reutilize caches de um protocolo diferente. A análise aceita `--root`; os argumentos podem ser consultados com `python scripts/analyse_corrected.py --help`. O exportador de publicação usa o caminho canônico `Resultados/corrected_v1/`.
+O runner retoma apenas corridas faltantes e verifica a compatibilidade do protocolo/código. Para resultados novos, não reutilize caches de um protocolo diferente. A análise aceita `--root`; os argumentos podem ser consultados com `python scripts/analyse_corrected.py --help`.
 
 ## Energia: preparação e medição separadas
 
